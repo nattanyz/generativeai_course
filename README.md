@@ -11,3 +11,6 @@ Demonstrates how to retrieve and display a list of available models from the Ant
 
 ### prompt_engineering/reasoning_o1_openAI.ipynb
 Focuses on advanced prompting and reasoning with OpenAI's latest models (including o1 and GPT-4 series). Shows how to list available OpenAI models, construct effective reasoning prompts, and use structured formats. Includes practical code for generating functions and outputs using reasoning models.
+
+### tooluse_anthropic.ipynb
+Demonstrates agentic tool use with Anthropic Claude, including how to define a Wikipedia retrieval tool, set up tool schemas, and orchestrate a full agentic loop for question answering with external tool calls. The notebook walks through each step: defining the tool, integrating it with Claude's API, handling tool use responses, and returning results to the model. Each code section is accompanied by detailed markdown explanations, making it easy to follow and educational for those learning about agentic LLM workflows.
