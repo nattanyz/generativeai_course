@@ -27,6 +27,19 @@ Here is the github repository for the files which I used to teach my courses in 
   - DeepSeek-R1
   - Meta LLama 3.1 70B Instruct
 
+### Models Used in Notebooks
+
+#### OpenAI Models
+- **GPT-4 Turbo**: Used in `prompt_engineering_day1_solution.ipynb` and `reasoning_o1_openAI.ipynb`
+- **GPT-3.5 Turbo**: Alternative model option in `prompt_engineering_day1_solution.ipynb`
+- **o4-mini**: Advanced reasoning model used in `reasoning_o1_openAI.ipynb`
+- **GPT-4o**: Used in `reasoning_o1_openAI.ipynb`
+
+#### Anthropic Models
+- **Claude 3 Haiku**: Used in `prompt_engineering_day1_solution.ipynb` and `understanding_anthropic_models.ipynb`
+- **Claude 3 Sonnet**: Used in `tooluse_anthropic.ipynb`
+- **Claude 3.5 Haiku**: Used in `understanding_anthropic_models.ipynb`
+
 ### Required Python Libraries
 
 Install the following packages using pip:
