@@ -1,6 +1,62 @@
 # Description
 Here is the github repository for the files which I used to teach my courses in Institute of Systems Science, National University of Singapore
 
+## Prerequisites and Setup
+
+### Required API Keys and Credentials
+
+#### OpenAI API Access
+- **OpenAI API Key**: Required for `prompt_engineering_day1_solution.ipynb` and `reasoning_o1_openAI.ipynb`
+- Get your API key from: https://platform.openai.com/api-keys
+- Set as environment variable: `OPENAI_API_KEY`
+
+#### Anthropic API Access
+- **Anthropic API Key**: Required for `prompt_engineering_day1_solution.ipynb`, `understanding_anthropic_models.ipynb`, and `tooluse_anthropic.ipynb`
+- Get your API key from: https://console.anthropic.com/
+- Set as environment variable: `ANTHROPIC_API_KEY`
+
+#### Amazon Bedrock Access
+- **AWS Account**: Required for `prompt_engineering_amazon_bedrock.ipynb`
+- **AWS IAM Credentials**: Configure AWS CLI with appropriate permissions for Amazon Bedrock
+- **Model Access**: Enable the following models in Amazon Bedrock Console:
+  - Anthropic Claude 3.7 Sonnet
+  - Anthropic Claude 3.5 Sonnet
+  - Anthropic Claude 3.5 Haiku
+  - Amazon Nova Pro
+  - Amazon Nova Micro
+  - DeepSeek-R1
+  - Meta LLama 3.1 70B Instruct
+
+### Required Python Libraries
+
+Install the following packages using pip:
+
+```bash
+pip install anthropic
+pip install openai
+pip install boto3
+pip install python-dotenv
+pip install wikipedia
+pip install tabulate
+pip install ipython
+pip install jupyter
+```
+
+### Environment Setup
+
+1. Create a `.env` file in the root directory with your API keys:
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+```
+
+2. For Amazon Bedrock, configure AWS credentials:
+```bash
+aws configure
+```
+
+3. Ensure you have the required permissions for Amazon Bedrock in your AWS account.
+
 ## Jupyter Notebooks Overview
 
 ### prompt_engineering/prompt_engineering_day1_solution.ipynb
